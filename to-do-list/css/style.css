@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Popins', sans-serif;
+}
+
+body{
+    background: linear-gradient(135deg,#153677, #4e085f);
+}
+
+main{
+    width: 100%;
+    max-width: 540px;
+    background-color: #fff;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+}
+
+h1{
+    color: #002765;
+    font-size: 30px;
+}
+
+img{
+    width: 30px;
+
+}
+
+#title-icon-container{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 20px;
+    
+    gap: 10px;
+}
+
+#input-btn-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #edeef0;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+
+input{
+    /* Ocupa todo o espaço disponível */
+    flex: 1; 
+    /* Tirar a borda padrão */
+    border: none;
+
+    /* Tirar o foco quando clicado */
+    outline: none;   
+
+    /* Tirar o fundo branco do input */
+    /* background: transparent; */
+
+    background-color: #002765;
+
+    padding: 10px;
+
+    font-weight: 14px;
+}
+
+button{
+    background: transparent;
+    background-color: aquamarine;
+    border: none;
+    width: 100px;
+}
